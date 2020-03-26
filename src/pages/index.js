@@ -8,13 +8,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
+      <div style={{ height: 400, width: 300, backgroundColor: "aqua" }} />
+      <div style={{ height: 400, width: 300, backgroundColor: "crimson" }} />
+      <div style={{ height: 400, width: 300, backgroundColor: "dodgerblue" }} />
+      <div style={{ height: 400, width: 300, backgroundColor: "coral" }} />
+      <div style={{ height: 400, width: 300, backgroundColor: "limegreen" }} />
+      <div style={{ height: 400, width: 300, backgroundColor: "PapayaWhip" }} />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
